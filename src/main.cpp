@@ -2,7 +2,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Last Echo Of FCIaS");
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Last Echo Of FCIS");
 
     while (window.isOpen())
     {
@@ -11,7 +11,7 @@ int main()
             if (event.type == sf::Event::Closed)
                 window.close();
 
-        window.clear(sf::Color::Green);
+        window.clear(sf::Color::Red);
         window.display();
     }
 
